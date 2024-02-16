@@ -1,0 +1,44 @@
+*{
+    background-color: black;
+}
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: end;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+
+.name {
+    position: relative; 
+    color: rgb(223, 43, 226);
+    width: 75px;
+    padding: 32px, 64px, 100px, 10px;
+    background-color: black
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+
+.list1 {
+    color: rgb(226, 83, 43);
+    font-size: 13,5;
+    background-color: black;
+    width: 160px;
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+
+.list2 {
+    color: rgb(226, 83, 43);
+    font-size: 13,5;
+    background-color: black;
+    width: 160px;
+}
+
+.ppic img{
+    position: relative;
+    width: 200px;
+}
