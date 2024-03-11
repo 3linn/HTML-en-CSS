@@ -22,9 +22,9 @@
 
 
 .facepic img{
-    position: fixed;
-    width: 200px;
-    height: 350;
+    position:relative;
+    width: 280px;
+    height: 350px;
 }
 
 .parent {
